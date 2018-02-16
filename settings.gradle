@@ -1,0 +1,4 @@
+rootProject.name = 'wemanity'
+include 'mod-persistence'
+include 'mod-webmvc'
+

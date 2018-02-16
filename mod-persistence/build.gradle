@@ -1,0 +1,32 @@
+
+dependencies {
+    //spring-data-jpa
+    compile group: 'org.springframework.data', name: 'spring-data-jpa', version: '1.11.1.RELEASE'
+
+    //spring-context
+    compile group: 'org.springframework', name: 'spring-context', version: '4.3.7.RELEASE'
+
+    //spring-orm
+    compile group: 'org.springframework', name: 'spring-orm', version: '4.3.7.RELEASE'
+
+    //spring-tx(transaction)
+    compile group: 'org.springframework', name: 'spring-tx', version: '4.3.7.RELEASE'
+
+    //spring-aop
+    compile group: 'org.springframework', name: 'spring-aop', version: '4.3.7.RELEASE'
+
+    //Guava
+    compile group: 'com.google.guava', name: 'guava', version: '21.0'
+
+    //Hibernate-core
+    compile group: 'org.hibernate', name: 'hibernate-core', version: '5.2.8.Final'
+
+    //Lombok
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.16.14'
+
+    //H2 database
+    //runtime group: 'com.h2database', name: 'h2', version: '1.4.194'
+
+    //MysSql database
+    runtime group: 'mysql', name: 'mysql-connector-java', version: '5.1.40'
+}

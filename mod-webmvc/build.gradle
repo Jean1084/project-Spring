@@ -1,0 +1,9 @@
+apply plugin: 'war'
+
+dependencies {
+    compile project (":mod-persistence")
+    compile group: 'org.springframework', name: 'spring-context', version: '4.3.7.RELEASE'
+    compile group: 'org.springframework', name: 'spring-webmvc', version: '4.3.7.RELEASE'
+    compile group: 'javax', name: 'javaee-web-api', version: '7.0'
+    compile group: 'jstl', name: 'jstl', version: '1.2'
+}
